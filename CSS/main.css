@@ -1,0 +1,217 @@
+
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;  
+  font-family: monospace, sans-serif;
+  font-style: normal;
+  justify-content: center;
+  margin:0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+footer {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center;
+  }
+}
+/* Algemene container aanpassing */
+.container-custom {
+  max-width: 1200px;
+}
+
+
+.col-md-3 img {
+  padding: 0;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: rgb(184, 184, 184);
+  border-width: 1px;
+}
+
+.col-md-3 video {
+  padding: 0;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: rgb(184, 184, 184);
+  border-width: 1px;
+}
+
+/* Header styling */
+.header-custom {
+  background-color: #005560; /* Bootstrap primary color */
+  color: white;
+  padding: 1rem;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+/* Footer styling */
+.footer-custom {
+  height: 20px;
+  background-color: #bababa; 
+  color: rgb(62, 62, 62);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  
+}
+
+/* Grote tekst styling */
+.large-text {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Responsive styling voor kleinere schermen */
+@media (max-width: 768px) {
+  .navbar-nav {
+      text-align: center;
+  }
+}
+
+/* Over mij pagina specifieke styling */
+.overmij-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Mijn werk pagina specifieke styling */
+.work-grid img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+
+
+/* Logo pagina specifieke styling */
+.logo-grid img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.mijnWerk_link {
+  padding: 20px;
+  margin: 20px;
+}
+.mijnWerk_link a:link, a:visited {
+  background-color: rgb(143, 143, 143);
+  color: black;
+  border: 2px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 17rem;
+}
+
+.mijnWerk_link a:hover, a:active {
+  background-color: rgb(190, 189, 189);
+  color: rgb(0, 0, 0);
+}
+
+.mijnWerk_link_1 {
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.5rem;
+  
+}
+.mijnWerk_link_1 a:link, a:visited {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  width: 13rem;
+
+  
+}
+
+.mijnWerk_link_1 a:hover, a:active {
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+
+th, td {
+  background-color: rgb(115, 131, 134);
+  border: 1px solid black; 
+  color: black;
+  padding: 50px; 
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+th {
+  background-color: rgb(49, 68, 68);
+}
+
+.imgPortrait {
+  width: 600px;
+  border-style: solid;
+  border-color:rgb(255, 255, 255);
+  border-width: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.textContainer_1 {
+ font-size: 15px;
+ line-height: 20px;
+ text-align: center;
+ width: 650px;
+ color: rgb(0, 0, 0);
+ padding-top: 20px;
+ padding-bottom: 20px;      
+}
+
+.textContainer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  width: 900px;
+  text-align: left;
+  color: rgb(255, 255, 255);  
+  margin-bottom: 50px;   
+  padding-left: 50px;
+  text-align: justify;
+}
+
+.Text_co {
+  color: crimson;
+  font-weight: bold;
+}
+
+.contact_1 a:link, a:visited {
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: none;
+
+
+  
+}
+
+.contact_1 a:hover, a:active {
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
